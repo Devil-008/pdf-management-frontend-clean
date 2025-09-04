@@ -24,8 +24,7 @@
     "predeploy": "npm run build",
     "lint": "eslint src/**/*.{js,jsx} --max-warnings=0",
     "lint:fix": "eslint src/**/*.{js,jsx} --fix",
-    "analyze": "npm run build && npx serve -s build",
-    "vercel-build": "react-scripts build"
+    "analyze": "npm run build && npx serve -s build"
   },
   "eslintConfig": {
     "extends": [
